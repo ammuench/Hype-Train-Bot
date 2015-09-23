@@ -1,0 +1,140 @@
+{
+  "admins": [
+    "100140245063372124733"
+  ],
+  "autoreplies": [
+    [
+      [
+	"regex:(hype|HYPE)",
+	"regex:HY+PE",
+	"regex:hy+pre",
+	"regex:hy+pe+",
+	"regex:HY+PE+",
+	"HYPE!",
+	"is doing it",
+	"hypebot"
+      ],
+      [
+      	"HYPE",
+      	"HYPE HYPE HYPE HYPE HYPE HYPE HYPE HYPE HYPE HYPE HYPE HYPE",
+      	"HYPE HYPE HYPE",
+	"GOTTA CHECK MY HYPE WATCH, ITS HYPE TIME",
+	"HYPE TRAIN ACTIVATED",
+	"HYYYYYYYYPPPPPPPPEEEEEE",
+	"GET HYPE",
+	"SO MUCH HYPE",
+	"HYYYYYYYYYYPE",
+	"hypehypehypehypehypehype",
+	"HYYYYYYPE",
+	"HYPE HYPE",
+	"HYPE",
+	"hype.",
+	"🐙🐙🐙HYPE 🐙🐙🐙"
+      ]
+     ],
+     [
+      [
+	"I love you hype bot",
+	"i love you hype bot",
+	"i still love you, hype bot",
+	"I still love you, hype bot",
+	"love hype bot",
+	"love you hype bot",
+	"love hypebot",
+	"love you hypebot"
+      ],
+      [
+	"I love you too {event.user.full_name}",
+	"<3"
+      ]
+
+    ],
+    [
+     [
+	"regex:(picnic|PICNIC)",
+	"PICNIC!",
+	"Game is paused",
+	"pause",
+	"pauses",
+	"pausing"
+     ],
+     [
+	"ヽ༼ຈل͜ຈ༽ﾉ NOW WE RIOT ヽ༼ຈل͜ຈ༽ﾉ",
+	"୧༼ಠ益ಠ༽୨ NOW WE RIOT! ୧༼ಠ益ಠ༽୨",
+	"ヽ༼ຈل͜ຈ༽ﾉ NO STREAM NOW WE RIOT ヽ༼ຈل͜ຈ༽ﾉ",
+	"༼ つ ◕_◕ ༽つ GIFF STRIM ༼ つ ◕_◕ ༽つ ༼ つ ◕_◕ ༽つ GIFF STRIM ༼ つ ◕_◕ ༽つ ༼ つ ◕_◕ ༽つ GIFF STRIM ༼ つ ◕_◕ ༽つ ༼ つ ◕_◕ ༽つ GIFF STRIM ༼ つ ◕_◕ ༽",
+	"ヽ༼ ಠ益ಠ ༽ﾉ GIFF STREAM ヽ༼ ಠ益ಠ ༽ﾉ "
+     ]
+    ],
+    [
+     [
+	"Puppey",
+	"puppey",
+	"puppan"
+     ],
+     [
+	"🐕🐕🐕",
+	"🐶🐶🐶"
+     ]
+    ],
+    [
+     [
+     	"Russia",
+	"dotka",
+	"Virtus Throw"
+     ],
+     [ 
+	"REAL SOVIET DAMAGE",
+	"REAL. SOVIET. DAMAAAAAAAAGE"
+     ]
+    ]
+  ],
+  "autoreplies_enabled": true,
+  "cleverbot_percentage_replies": "0",
+  "commands_enabled": true,
+  "commands_user": [],
+  "conversations": {
+    "CONV_ID": {
+      "autoreplies_enabled": false,
+      "commands_enabled": false
+    }
+  },
+  "jsonrpc": [
+    {
+      "certfile": null,
+      "module": "sinks.generic.AsyncMessagePoster",
+      "name": "127.0.0.1",
+      "port": 9001
+    }
+  ],
+  "link_to_guide": "https://github.com/hangoutsbot/hangoutsbot/wiki/User-Guide",
+  "mentionall": true,
+  "mentionallwhitelist": [],
+  "mentionerrors": true,
+  "mentionquidproquo": false,
+  "plugins": null,
+  "slack": [
+    {
+      "certfile": null,
+      "channel": "#SLACK_CHANNEL_NAME",
+      "key": "SLACK_API_KEY",
+      "name": "SERVER_NAME",
+      "port": 8085,
+      "synced_conversations": [
+        "CONV_ID_1",
+        "CONV_ID_2"
+      ]
+    }
+  ],
+  "spreadsheet_enabled": false,
+  "spreadsheet_url": "INSERT_PUBLIC_URL_OF_GSHEET_HERE",
+  "strict_botkeeper_check": false,
+  "sync_rooms": [
+    [
+      "CONV_ID_1",
+      "CONV_ID_2"
+    ]
+  ],
+  "syncing_enabled": false,
+  "watch_new_adds": false
+}
