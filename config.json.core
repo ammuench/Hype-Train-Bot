@@ -7,7 +7,7 @@
       [
 	"regex:(hype|HYPE)",
 	"regex:HY+PE",
-	"regex:hy+pre",
+	"regex:hy+pe",
 	"regex:hy+pe+",
 	"regex:HY+PE+",
 	"HYPE!",
@@ -52,11 +52,7 @@
     [
      [
 	"regex:(picnic|PICNIC)",
-	"PICNIC!",
-	"Game is paused",
-	"pause",
-	"pauses",
-	"pausing"
+	"PICNIC!"
      ],
      [
 	"ヽ༼ຈل͜ຈ༽ﾉ NOW WE RIOT ヽ༼ຈل͜ຈ༽ﾉ",
@@ -86,6 +82,33 @@
      [ 
 	"REAL SOVIET DAMAGE",
 	"REAL. SOVIET. DAMAAAAAAAAGE"
+     ]
+    ],
+    [
+     [
+	"pause",
+	"pausing",
+	"paused"
+     ],
+     [
+	"Ｔｈｉｓ  ｉｓ  ａｃｔｕａｌｌｙ  ｖｅｒｙ  ｈｅｌｐｆｕｌ  ｆｏｒ  ｍｅ．  Ｙｏｕ  ｓｅｅ，  Ｉ＇ｖｅ  ｂｅｅｎ  ｌｏｓｔ  ｆｏｒ  ｔｈｅ  ｌａｓｔ  ｆｅｗ  ｙｅａｒｓ  ｎｏｔ  ｋｎｏｗｉｎｇ  ｗｈａｔ  Ｉ  ｗａｎｔ  ｔｏ  ｂｅｃｏｍｅ  ｏｒ  ｗｈａｔ  ｔｏ  ｗｏｒｋ  ｗｉｔｈ．  Ｂｕｔ  ｎｏｗ  Ｉ  ｋｎｏｗ． Ｉ  ｗａｎｔ  ｔｏ  ｂｅｃｏｍｅ  ａｎ  ａｄｍｉｎ  ｉｎ  ａ  ｐｒｏｆｅｓｓｉｏｎａｌ  ｄｏｔａ２  ｔｏｕｒｎａｍｅｎｔ  ｓｏ  ｔｈａｔ  Ｉ  ｄｏｎ＇ｔ  ｈａｖｅ  ｔｏ  ｄｏ  ａｎｙｔｈｉｎｇ．",
+	"This reminds me of the famous '322-pause', when  puppey (back then from Na'Vi) tactically paused the game during an enormous fight to discuss tactics. Because of a bug he earned 322 ingame gold during this pause.",
+	"In all honesty, the pause is a part of my life now. I console my bladder up until the draft ends coz I know there will be a pause for sure for me to go pee and pick up a beer on the way back so I can pee again for the next match.",
+	"I remember when playing dota didn't consist of a 40 minute pause in the middle of the game",
+	"One day, they'll resume...maybe..."
+     ]
+    ],
+    [
+     [
+	"salt",
+	"salty",
+	"PJsalt",
+	"pjsalt"
+     ],
+     [
+	"(つ°ヮ°)つ He who controls the salt controls the UNiVeRsE. (つ°ヮ°)つ",
+	"Sodium, atomic number 11, was first isolated by Peter Dager in 1807. A chemical component of salt, he named it Na in honor of the saltiest region on earth, North America.",
+	"I must not feel. Emotion is the mind-killer. Emotion is the little-death that brings total obliteration. I will only feel salty. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the emotion has gone there will be nothing. Only salt will remain."
      ]
     ]
   ],
@@ -136,5 +159,6 @@
     ]
   ],
   "syncing_enabled": false,
-  "watch_new_adds": false
+  "watch_new_adds": false,
+  "wolframalpha-apikey": "93EXEY-YG4GLX7UG9"
 }
