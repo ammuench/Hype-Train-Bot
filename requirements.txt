@@ -11,3 +11,5 @@ git+https://github.com/loisaidasam/pyslack.git
 git+https://github.com/carpedm20/emoji
 selenium
 imgurpython
+git+https://github.com/Granitas/GosuGamers-API/
+lxml
