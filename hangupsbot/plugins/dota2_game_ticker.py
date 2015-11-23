@@ -31,14 +31,14 @@ def gamelist(bot, event, *args):
     elif subcommand == "all":
         match_printout = '<b><u>Live:</u></b>\n'
         for match in ggms.find_live_matches():
-            match_printout += match.team1 + " (" + match.team1_bet + ")\nvs\n" + match.team2 + " (" + match.team2_bet + ")\n"
-            match_printout += "<i>League: " +  match.tournament + "</i>\n\n"
+            match_printout += match.team1 + " (" + match.team1_bet + ")\nvs\n" + match.team2 + " (" + match.team2_bet + ")\n\n"
+#            match_printout += "<i>League: " +  match.tournament + "</i>\n\n"
         match_printout += "\n"
 
         match_printout += "<b><u>Upcoming:</u></b>\n"
         for match in ggms.find_upcoming_matches()[0:6]:
             match_printout += match.team1 + " (" + match.team1_bet + ")\nvs\n" + match.team2 + " (" + match.team2_bet + ")\n"
-            match_printout += "<i>League: " +  match.tournament + "</i>\n"
+ #           match_printout += "<i>League: " +  match.tournament + "</i>\n"
             match_printout += "<i>Match Starts in : " +  match.live_in + "</i>\n\n"
 
         yield from bot.coro_send_message(event.conv, _(match_printout))
@@ -46,8 +46,8 @@ def gamelist(bot, event, *args):
     elif subcommand == "live":
         match_printout = '<b><u>Live:</u></b>\n'
         for match in ggms.find_live_matches():
-            match_printout += match.team1 + " (" + match.team1_bet + ")\nvs\n" + match.team2 + " (" + match.team2_bet + ")\n"
-            match_printout += "<i>League: " +  match.tournament + "</i>\n\n"
+            match_printout += match.team1 + " (" + match.team1_bet + ")\nvs\n" + match.team2 + " (" + match.team2_bet + ")\n\n"
+   #         match_printout += "<i>League: " +  match.tournament + "</i>\n\n"
 
         yield from bot.coro_send_message(event.conv, _(match_printout))
 
@@ -56,7 +56,7 @@ def gamelist(bot, event, *args):
         match_printout = "<b><u>Upcoming:</u></b>\n"
         for match in ggms.find_upcoming_matches()[0:6]:
             match_printout += match.team1 + " (" + match.team1_bet + ")\nvs\n" + match.team2 + " (" + match.team2_bet + ")\n"
-            match_printout += "<i>League: " +  match.tournament + "</i>\n"
+  #          match_printout += "<i>League: " +  match.tournament + "</i>\n"
             match_printout += "<i>Match Starts in : " +  match.live_in + "</i>\n\n"
 
         yield from bot.coro_send_message(event.conv, _(match_printout))
