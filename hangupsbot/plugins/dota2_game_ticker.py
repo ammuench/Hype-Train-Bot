@@ -1,7 +1,8 @@
+# Dota 2 Match Info
 #
-# Simple interface to urbandictionary.com
+# Fetches latest live and upcoming Dota2 games on request, outputs game info into chat
 #
-# Author: Roman Bogorodskiy <bogorodskiy@gmail.com>
+# Author: Alex Muench <ammuench@gmail.com>
 
 import sys
 
@@ -56,7 +57,8 @@ def gamelist(bot, event, *args):
         match_printout = "<b><u>Upcoming:</u></b>\n"
         for match in ggms.find_upcoming_matches()[0:6]:
             match_printout += match.team1 + " (" + match.team1_bet + ")\nvs\n" + match.team2 + " (" + match.team2_bet + ")\n"
-  #          match_printout += "<i>League: " +  match.tournament + "</i>\n"
+# DEPRECATED: Gosugamers no longer provides the name of the tournament correctly, this may be changed in the future  
+#          match_printout += "<i>League: " +  match.tournament + "</i>\n"
             match_printout += "<i>Match Starts in : " +  match.live_in + "</i>\n\n"
 
         yield from bot.coro_send_message(event.conv, _(match_printout))
